@@ -1,0 +1,76 @@
+@media all and (max-width: 600px) 
+{
+	header
+	{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	nav a
+	{
+		width: 80px;
+	}
+
+
+	.logo
+	{
+		margin: 10px;
+	}
+
+	#slider h1
+	{
+		font-size: 16px;
+	}
+
+	#slider h1+p
+	{
+		font-size: 12px;
+	}
+
+	.information
+	{
+		width: 100px;
+	}
+
+	.contenu-services
+	{
+		flex-direction: column;
+	}
+
+	.bloc-icone
+	{
+		display: none;
+	}
+
+	.bloc-text
+	{
+		width: 100%;
+		text-align: center;
+		line-height: 30px;
+	}
+
+	.img-main img
+	{
+		width: 100%;
+
+	}
+
+	.nav-projets a
+	{
+		width: 80px;
+	}
+
+	.formulaire
+	{
+		width: 80%;
+		right: 5px;
+	}
+
+	#calque-form
+	{
+		width: 80%;
+		right: 5px;
+	}
+
+}
