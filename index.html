@@ -2,43 +2,44 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="stylef.css">
         <link rel="stylesheet" href="css/all.min.css">
-        <link rel="stylesheet" href="mediaqueries.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--  <link rel="stylesheet" href="mediaqueries.css"> -->
         <title>WebAgency</title>
     </head>
 
   <body>
 <!-- Barre de navigation -->
-    <header>
-        <div class="logo">
-            <img src="images/logo.png" alt="logo-webagency">
-        </div>
-        <nav>           
-            <a class="active" href="accueil.html"> Accueil </a>
-            <a href="services.html"> Services </a>
-            <a href="projets.html"> Portfolio </a>
-            <a href="contact.html"> Contact </a> 
-        </nav>  
-    </header>
-
-        
+    <section class="accueil">
+        <header>
+            <div class="test">
+                <div class="logo">
+                    <img src="images/logo.png" alt="logo-webagency">
+                </div>
+                <nav>           
+                    <a class="active" href="accueil.html"> Accueil </a>
+                    <a href="services.html"> Services </a>
+                    <a href="projets.html"> Portfolio </a>
+                    <a href="contact.html"> Contact </a> 
+                </nav> 
+            </div>	   
+        </header>      
 <!-- Contenue de la page accueil -->  
-    <section>
-        <div id="slider">
+        <section class="slider">
             <div class="milieu-slide">
-               <div class="fleche-gauche">
-                   <i class="fas fa-angle-left"></i>
-               </div>
-               <div class="information">
-                   <div>
+                <div class="fleche-gauche">
+                    <i class="material-icons"></i>
+                </div>
+                <div class="slide-text">
+                    <div>
                         <h1><strong>WEBAGENCY</strong> : L'AGENCE DE TOUS VOS PROJETS !</h1>
                         <p>Vous avez un projet web ? La WebAgency vous aide a le realiser !</p>
                         <p><a class="bouton" href="info.html">Plus d'infos</a></p>
-                   </div>                   
+                    </div>                   
                 </div>
                 <div class="fleche-droite">
-                   <i class="fas fa-angle-right"></i>
+                    <i class="fa fa-angle-right"></i>
                 </div>  
             </div>   
      <!-- Barre de chargement -->
@@ -46,13 +47,177 @@
                 <div class="barre-chargement"></div>
                 <div class="barre-complete"></div>
             </div>           
-        </div>
-    </section>
+        </section>
+    </section>    
 <!-- Fin du contenu de la page accueil -->
 
 <!-- Contenue Page services -->
-    <section>
+    <section class="page-services">
+    	<div class="entete">
+            <h2> NOS SERVICES </h2>
+            <div class="separateur">
+                <div class="trait"></div>
+                <div class="point"></div>
+                <div class="trait"></div>
+            </div>   
+            <p>Post quorum necem nihilo lenius ferociens Gallus ut leo cadaveribus pastus multa huius modi scrutabatur. quae singula narrare non refert, me professione modum, quod evitandum est, excedamus.</p>   
+        </div>
+
+        <div class="contenu-services">
+
+            <aside class="img-main">
+                <img src="main-feature.png" alt="image">
+            </aside>
+
+            <div class="services">
+                <div class="bloc">
+                    <div class="bloc-icone">
+                        <div class="cercle"></div>
+                        <div class="petit-cercle"></div>
+                        <div class="icone">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                    </div>
+                    <div class="bloc-text">
+                        <h3>UX-Design</h3>
+                        <p>L’UX Design se définit donc comme l’ensemble des moyens mis en œuvre pour concevoir une interface qui répond pleinement aux besoins en utilisabilité de chaque utilisateur.</p>
+                    </div>
+                </div> 
+
+                <div class="bloc">
+                    <div class="bloc-icone">
+                        <div class="cercle"></div>
+                        <div class="petit-cercle"></div>
+                        <div class="icone">
+                            <i class="fas fa-cubes"></i>
+                        </div>
+                    </div>   
+                    <div class="bloc-text">
+                        <h3>UI-Design</h3>
+                        <p>améliorer l’interaction d’un utilisateur avec l’interface.</p>
+                    </div>
+                </div>
+
+                <div class="bloc">
+                    <div class="bloc-icone">
+                        <div class="cercle"></div>
+                        <div class="petit-cercle"></div>
+                        <div class="icone">
+                            <i class="fas fa-chart-pie"></i>
+                        </div>
+                    </div>   
+                    <div class="bloc-text">
+                        <h3>SEO</h3>
+                        <p>L’optimisation pour les moteurs de recherche, référencement naturel ou SEO, est un ensemble de techniques visant à optimiser la visibilité d'une page web dans les résultats de recherche.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     	
-    </section>   
+    </section>  
+    <section class="projets">
+    	<!-- Header Projet -->
+    	<div class="entete">
+            <h2> NOS PROJETS </h2>
+    	    <div class="separateur">
+                <div class="trait"></div>
+                <div class="point"></div>
+                <div class="trait"></div>
+            </div> 
+            <p>Post quorum necem nihilo lenius ferociens Gallus ut leo cadaveribus pastus multa huius modi scrutabatur. quae singula narrare non refert, me professione modum, quod evitandum est, excedamus.</p>  
+        </div>
+        <!-- menu projets -->
+        <div class="nav-projets">
+            <a href="#" class="active"><div class="triangle"></div>All Works</a>
+            <a href="#"><div class="triangle"></div>Creative</a>
+            <a href="#"><div class="triangle"></div>Corporate</a>
+            <a href="#"><div class="triangle"></div>Portfolio</a>
+        </div>
+        <!-- contenu page projets -->
+        <div class="contenu-projets">
+        <div class="container">
+            <img class="images-projets" src="images/portfolio/01.jpg" alt="portfolio1">
+            <div class="view"></div>
+            <div class="rond"></div>
+            <div class="oeil"><i class="far fa-eye"></i></div>
+            <p>Portfolio 1</p>      
+        </div>
+        <div class="container"> 
+            <img class="images-projets" src="images/portfolio/02.jpg" alt="portfolio2"> 
+            <div class="view"></div>
+            <div class="rond"></div>
+            <div class="oeil"><i class="far fa-eye"></i></div>
+            <p>Portfolio 2</p>      
+        </div>
+        <div class="container">
+            <img class="images-projets" src="images/portfolio/03.jpg" alt="portfolio3">
+            <div class="view"></div>
+            <div class="rond"></div>
+            <div class="oeil"><i class="far fa-eye"></i></div>  
+            <p>Portfolio 3</p>  
+        </div>
+        <div class="container">
+            <img class="images-projets" src="images/portfolio/04.jpg" alt="portfolio4">
+            <div class="view"></div>
+            <div class="rond"></div>
+            <div class="oeil"><i class="far fa-eye"></i></div>
+            <p>Portfolio 4</p>  
+        </div>  
+        <div class="container">
+            <img class="images-projets" src="images/portfolio/05.jpg" alt="portfolio5">
+            <div class="view"></div>
+            <div class="rond"></div>
+            <div class="oeil"><i class="far fa-eye"></i></div>
+            <p>Portfolio 5</p>  
+        </div>
+        <div class="container"> 
+            <img class="images-projets" src="images/portfolio/06.jpg" alt="portfolio6">
+            <div class="view"></div>
+            <div class="rond"></div>
+            <div class="oeil"><i class="far fa-eye"></i></div>
+            <p>Portfolio 6</p>  
+        </div>
+        <div class="container"> 
+            <img class="images-projets" src="images/portfolio/07.jpg" alt="portfolio7">
+            <div class="view"></div>
+            <div class="rond"></div>
+            <div class="oeil"><i class="far fa-eye"></i></div>
+            <p>Portfolio 7</p>  
+        </div>
+        <div class="container"> 
+            <img class="images-projets" src="images/portfolio/08.jpg" alt="portfolio8">
+            <div class="view"></div>
+            <div class="rond"></div>
+            <div class="oeil"><i class="far fa-eye"></i></div>
+            <p>Portfolio 8</p>  
+        </div>
+        </div>
+  </section> 
+
+  <section class="google-wrapper" style=" width: 100%;">
+        <div id="google-map">
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24732.566660726254!2d4.8476482514856105!3d52.3680925189843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609e210b1510f%3A0xfdec588fb69da1d8!2sHelmersbuurt%2C%20Amsterdam%2C%20Pays-Bas!5e0!3m2!1sfr!2sma!4v1571056595420!5m2!1sfr!2sma" frameborder="0" style="border:0;/* z-index: 200; */" allowfullscreen="">            	
+             </iframe>
+        </div>
+        <div id="calque">        	
+        </div>
+        <div id="calque-form">
+        </div>
+        <div class="formulaire">
+            <div class="form-text">
+                <h3>Contact Info</h3>
+                <h4>WebAgency SAS</h4>
+                <p>25 Rue d'Hauteville 75010 Paris</p>
+                <p>Tel : 06 01 22 33 44</p>
+            </div>
+            <form>  
+                <input type="text" name="name" placeholder="Name">
+                <input type="email" name="email" placeholder="Email">
+                <input type="text" name="subject" placeholder="Subject">
+                <textarea placeholder="Message"></textarea>
+                <input type="submit" value="Send Message">
+            </form>
+        </div>     
+    </section>
   </body>
 </html>
