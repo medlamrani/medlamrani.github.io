@@ -11,7 +11,7 @@
 
   <body>
 <!-- Barre de navigation -->
-    <section class="accueil">
+    <section class="accueil" id="accueil">
         <header>
             <div class="test">
                 <div class="logo">
@@ -21,10 +21,10 @@
                 	<label for="toggle">&#9776;</label>
                     <input type="checkbox" id="toggle"/>
                     <nav>           
-                        <a class="active" href="accueil.html"> Accueil </a>
-                        <a href="services.html"> Services </a>
-                        <a href="projets.html"> Portfolio </a>
-                        <a href="contact.html"> Contact </a> 
+                        <a class="active" href="#accueil"> Accueil </a>
+                        <a href="#services"> Services </a>
+                        <a href="#projets"> Portfolio </a>
+                        <a href="#contact"> Contact </a> 
                     </nav> 
                 </div>
             </div>    	   
@@ -58,7 +58,7 @@
 <!-- Contenue Page services -->
     <section class="page services">
     	<div class="entete">
-            <h2> NOS SERVICES </h2>
+            <h2 id="services"> NOS SERVICES </h2>
             <div class="separateur">
                 <div class="trait"></div>
                 <div class="point"></div>
@@ -98,7 +98,7 @@
                     </div>   
                     <div class="bloc-text">
                         <h3>UI-Design</h3>
-                        <p>améliorer l’interaction d’un utilisateur avec l’interface.</p>
+                        <p>l’UI design fait partie de l’UX design, en cela qu’il travaille à donner la meilleure expérience possible à l’utilisateur, mais il s’attache plus particulièrement aux éléments perceptibles : éléments graphiques, boutons, navigation, typographie…</p>
                     </div>
                 </div>
 
@@ -107,7 +107,7 @@
                         <div class="cercle"></div>
                         <div class="petit-cercle"></div>
                         <div class="icone">
-                            <i class="fa fa-chart-pie"></i>
+                            <i class="fa fa-pie-chart"></i>
                         </div>
                     </div>   
                     <div class="bloc-text">
@@ -122,7 +122,7 @@
     <section class="page projets">
     	<!-- Header Projet -->
     	<div class="entete">
-            <h2> NOS PROJETS </h2>
+            <h2 id="projets"> NOS PROJETS </h2>
     	    <div class="separateur">
                 <div class="trait"></div>
                 <div class="point"></div>
@@ -143,69 +143,69 @@
             <img class="images-projets" src="images/portfolio/01.jpg" alt="portfolio1">
             <div class="view"></div>
             <div class="rond"></div>
-            <div class="oeil"><i class="far fa-eye"></i></div>
+            <div class="oeil"><i class="fa fa-eye"></i></div>
             <p>Portfolio 1</p>      
         </div>
         <div class="container"> 
             <img class="images-projets" src="images/portfolio/02.jpg" alt="portfolio2"> 
             <div class="view"></div>
             <div class="rond"></div>
-            <div class="oeil"><i class="far fa-eye"></i></div>
+            <div class="oeil"><i class="fa fa-eye"></i></div>
             <p>Portfolio 2</p>      
         </div>
         <div class="container">
             <img class="images-projets" src="images/portfolio/03.jpg" alt="portfolio3">
             <div class="view"></div>
             <div class="rond"></div>
-            <div class="oeil"><i class="far fa-eye"></i></div>  
+            <div class="oeil"><i class="fa fa-eye"></i></div>  
             <p>Portfolio 3</p>  
         </div>
         <div class="container">
             <img class="images-projets" src="images/portfolio/04.jpg" alt="portfolio4">
             <div class="view"></div>
             <div class="rond"></div>
-            <div class="oeil"><i class="far fa-eye"></i></div>
+            <div class="oeil"><i class="fa fa-eye"></i></div>
             <p>Portfolio 4</p>  
         </div>  
         <div class="container">
             <img class="images-projets" src="images/portfolio/05.jpg" alt="portfolio5">
             <div class="view"></div>
             <div class="rond"></div>
-            <div class="oeil"><i class="far fa-eye"></i></div>
+            <div class="oeil"><i class="fa fa-eye"></i></div>
             <p>Portfolio 5</p>  
         </div>
         <div class="container"> 
             <img class="images-projets" src="images/portfolio/06.jpg" alt="portfolio6">
             <div class="view"></div>
             <div class="rond"></div>
-            <div class="oeil"><i class="far fa-eye"></i></div>
+            <div class="oeil"><i class="fa fa-eye"></i></div>
             <p>Portfolio 6</p>  
         </div>
         <div class="container"> 
             <img class="images-projets" src="images/portfolio/07.jpg" alt="portfolio7">
             <div class="view"></div>
             <div class="rond"></div>
-            <div class="oeil"><i class="far fa-eye"></i></div>
+            <div class="oeil"><i class="fa fa-eye"></i></div>
             <p>Portfolio 7</p>  
         </div>
         <div class="container"> 
             <img class="images-projets" src="images/portfolio/08.jpg" alt="portfolio8">
             <div class="view"></div>
             <div class="rond"></div>
-            <div class="oeil"><i class="far fa-eye"></i></div>
+            <div class="oeil"><i class="fa fa-eye"></i></div>
             <p>Portfolio 8</p>  
         </div>
         <div class="container"> 
             <img class="images-projets" src="images/portfolio/full.jpg" alt="portfolio9">
             <div class="view"></div>
             <div class="rond"></div>
-            <div class="oeil"><i class="far fa-eye"></i></div>
+            <div class="oeil"><i class="fa fa-eye"></i></div>
             <p>Portfolio 9</p>  
         </div>
         </div>
   </section> 
 
-  <section class="google-wrapper">
+  <section class="google-wrapper" id="contact">
         <div id="google-map">
              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31002.18325125486!2d2.336291617905498!3d48.87622967768327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e0cad24b34d%3A0x1c0b82c6e1d85190!2s75010%20Paris%2C%20France!5e0!3m2!1sfr!2sma!4v1571935175315!5m2!1sfr!2sma" frameborder="0" style="border:0;" allowfullscreen="">    	
              </iframe>
@@ -216,7 +216,7 @@
             <h3>Contact Info</h3>
             <h4>WebAgency SAS</h4>
             <p>25 Rue d'Hauteville 75010 Paris</p>
-            <p>Tel : 06 01 22 33 44</p>
+            <p><span>Tel :</span> 06 01 22 33 44</p>
             <input type="text" name="name" placeholder="Name">
             <input type="email" name="email" placeholder="Email">
             <input type="text" name="subject" placeholder="Subject">

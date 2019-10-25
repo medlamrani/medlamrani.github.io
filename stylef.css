@@ -205,12 +205,15 @@ nav .active
 {
 	font-family: 'Roboto-Medium';
 	color: white;
-	padding-bottom: 5px;
+	padding-bottom: 10px;
+	font-size: 32px;
 }
 
 .slide-text h1+p
 {
 	font-family: 'Roboto-Medium';
+	color: white;
+	padding-bottom: 15px;
 }
 
 .bouton
@@ -225,6 +228,12 @@ nav .active
 	padding-top:10px; 
 	text-align: center;
 	border-radius: 2px;
+	font-family: 'Roboto-Medium';
+}
+
+.bouton:hover
+{
+
 }
 
 strong
@@ -265,17 +274,31 @@ strong
 .page
 {
 	width: 100%;
-	padding-top: 100px;
+	margin-top: 100px;
 	padding-bottom: 100px;
 }
+
 
 .entete
 {
 	/**background-color: darkblue;**/
-	width: 80%;
+	width: 60%;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+}
+
+h2
+{
+	font-size: 42px;
+	font-family: 'Roboto-Black';
+}
+
+.entete p
+{
+	font-family: 'Roboto-Regular';
+	font-size: 14px;
+	color: #65696E;
 }
 
 .separateur
@@ -378,6 +401,21 @@ strong
 	width: 75%;
 	text-align: left;
 	line-height: 25px;
+}
+
+.bloc-text h3
+{
+	font-size: 18px;
+	margin: 0;
+	font-family: 'Roboto-Black';
+}
+
+.bloc-text h3 + p 
+{
+	font-family: 'Roboto-Regular';
+	font-size: 14px;
+	color: #65696E;
+
 }
 
 
@@ -502,6 +540,7 @@ strong
 .container p 
 {
     position: absolute;
+    font-family: 'Roboto-Black';
     bottom: 50px;
     left: 10px;
     color: white;
@@ -527,7 +566,7 @@ strong
 	color: white;
 	position: absolute;
 	bottom: 65px;
-	right: 18px;
+	right: 19px;
 	opacity: 0;
 }
 
@@ -591,12 +630,42 @@ iframe
 form
 {
 	width: 400px;
-	height: 500px;
+	height: 580px;
 	background-color: rgb(255,255,255,.8);
 	position: absolute;
 	right: 200px;
 	top: 70px;
     z-index: 300;
+    text-align: left;
+}
+
+form h3
+{
+    font-size: 28px;
+    margin: 15px 15px 15px 15px;
+	font-family: 'Roboto-Black';
+}
+
+form h4
+{
+    color: #64686D;
+    font-size: 16px;
+    font-family: 'Roboto-Black';
+    margin-left: 15px;
+}
+
+form  p 
+{
+	font-family: 'Roboto-Regular';
+	font-size: 14px;
+	color: #65696E;
+	text-align: justify;
+	margin-left: 15px;
+}
+
+span
+{
+	text-decoration: underline dotted;
 }
 
 input
@@ -604,7 +673,7 @@ input
     width: 90%;
     box-sizing: border-box;
     padding: 10px 5px;
-    margin: 5px 0;
+    margin: 10px 0;
     border : 1px solid #65696E;
     border-radius: 4px;
     margin-left: 15px;
@@ -615,12 +684,13 @@ input[type="submit"]
 {
     background-color: #5CADD3;
     border: none;
-    border-bottom: 2px solid #4494BB;
+    border-bottom: 3px solid #4494BB;
     width: 30%;
     color: white;
     margin-left: 15px;
     opacity: 1;
     cursor: pointer;
+    font-family: 'Roboto-Medium';
 }
 
 textarea
@@ -657,8 +727,8 @@ textarea
 
 	nav a
 	{
-		width: 70px;
-		display: block;
+		width: 100%;
+		line-height: 30px;
 	}
 
 	label
@@ -693,7 +763,7 @@ textarea
 	.logo
 	{
 		align-self: flex-start;
-		margin-top: 20px;
+		margin-top: 10px;
 
 	}
 
