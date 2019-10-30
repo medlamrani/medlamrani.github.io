@@ -95,9 +95,7 @@ label
 #toggle
 {
     display: none;
-    position: absolute;
-    right: 20px;
-    top: 20px;
+    width: 100px;
 }
 
 
@@ -140,6 +138,7 @@ nav .active
 	height: 550px;
 	background-image: url("images/bg1.jpg");
 	background-position: center center;
+	background-size: cover;
 
 }
 
@@ -193,7 +192,6 @@ nav .active
 
 .slide-text
 {
-	flex:1s;
 	width: 35%;
 	display: flex;
 	flex-direction: column;
@@ -274,7 +272,7 @@ strong
 .page
 {
 	width: 100%;
-	margin-top: 100px;
+	padding-top: 100px;
 	padding-bottom: 100px;
 }
 
@@ -590,6 +588,11 @@ h2
 	opacity: 1;
 }
 
+.cache
+{
+	display: none;
+}
+
 .google-wrapper 
 {
 	width: 100%;
@@ -668,7 +671,7 @@ span
 	text-decoration: underline dotted;
 }
 
-input
+input[type="text"], input[type="email"]
 {
     width: 90%;
     box-sizing: border-box;
@@ -685,12 +688,13 @@ input[type="submit"]
     background-color: #5CADD3;
     border: none;
     border-bottom: 3px solid #4494BB;
-    width: 30%;
+    padding: 10px 10px;
     color: white;
     margin-left: 15px;
     opacity: 1;
     cursor: pointer;
     font-family: 'Roboto-Medium';
+    border-radius: 2px;
 }
 
 textarea
@@ -767,10 +771,12 @@ textarea
 
 	}
 
-	.milieu-slide
-    {
-    	margin-top: 200px;
-	    
+	.slider
+	{
+		margin-top: 200px;
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 300px;
 	}
 
 	.slider h1
@@ -791,6 +797,8 @@ textarea
 	.contenu-services
 	{
 		flex-direction: column;
+
+
 	}
 
 	.bouton:hover
@@ -806,8 +814,13 @@ textarea
 	.bloc-text
 	{
 		width: 100%;
-		text-align: center;
+		text-align: justify;
 		line-height: 30px;
+	}
+
+	.bloc-text h3
+	{
+		text-align: center;
 	}
 
 	.img-main img
@@ -829,8 +842,16 @@ textarea
 	form
 	{
 		width: 80%;
-		top: 200px;
+		top: 100px;
 		right: 35px;
 	}
 
 }
+
+@media screen and (max-width: 1400px)
+{
+	.cache
+	{
+		display: block;
+	}
+} 
