@@ -1,18 +1,31 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-        <meta charset="utf-8" />       
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="stylef.css">
+        <meta charset="utf-8" />
+<!-- lien pour les icons -->               
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">       
+<!-- page de style css -->         
+        <link rel="stylesheet" href="style.css">
+<!-- media pour mobile -->
         <meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+        <link rel="manifest" href="images/site.webmanifest">
+<!-- Referencement SEO -->
+        <meta name="description" content="Creation de Site Web">  
+        <meta name="description" content="Ameliorer l'experience de vos utilisateurs avec UX design et  UI design"> 
+        <meta name="description" content="Referencement naturel, SEO">     
+<!--Titre du site -->
         <title>WebAgency</title>
     </head>
 
   <body>
-<!-- Barre de navigation -->
-    
+<!--             Barre de navigation               -->
+    <section id="accueil">    
         <header>
-            <div class="test">
+            <div class="entete-fixe">
                 <div class="logo">
                     <img src="images/logo.png" alt="logo-webagency">
                 </div>
@@ -28,8 +41,8 @@
                 </div>
             </div>    	   
         </header>      
-<!-- Contenue de la page accueil -->  
-        <section class="slider">
+<!--             Contenue de la page accueil            -->  
+        <article class="slider">
             <div class="milieu-slide">
                 <div class="fleche-gauche">
                     <i class="fa fa-angle-left"></i>
@@ -38,23 +51,25 @@
                     <div>
                         <h1><strong>WEBAGENCY</strong> : L'AGENCE DE TOUS VOS PROJETS !</h1>
                         <p>Vous avez un projet web ? La WebAgency vous aide a le realiser !</p>
-                        <p><a class="bouton" href="info.html">Plus d'infos</a></p>
+                        <p><a class="bouton" href="#">Plus d'infos</a></p>
                     </div>                   
                 </div>
                 <div class="fleche-droite">
                     <i class="fa fa-angle-right"></i>
                 </div>  
             </div>   
-     <!-- Barre de chargement -->
+     <!--          Barre de chargement        -->
             <div class="barre">
                 <div class="barre-chargement"></div>
                 <div class="barre-complete"></div>
-            </div>           
-        </section>  
+            </div>    
+        </article>          
+    </section>  
 <!-- Fin du contenu de la page accueil -->
 
-<!-- Contenue Page services -->
+<!--           Contenue Page services          -->
     <section class="page services" id="services">
+    	<!--           Header Services        -->   
     	<div class="entete">
             <h2> NOS SERVICES </h2>
             <div class="separateur">
@@ -62,16 +77,16 @@
                 <div class="point"></div>
                 <div class="trait"></div>
             </div>   
-            <p>Post quorum necem nihilo lenius ferociens Gallus ut leo cadaveribus pastus multa huius modi scrutabatur. quae singula narrare non refert, me professione modum, quod evitandum est, excedamus.</p>   
+            <p>Afin d'ameliorer et d'optimiser votre site, la WebAgency met son expertise a votre service, pour vous offrir le meilleur de la technologie actuel.</p>   
         </div>
 
-        <div class="contenu-services">
+        <figure class="contenu-services">
 
-            <aside class="img-main">
-                <img src="main-feature.png" alt="image">
-            </aside>
+            <figcaption class="img-main">
+                <img src="images/main-feature.png" alt="UX-Design UI-Design SEO">
+            </figcaption>
 
-            <div class="services">
+            <article class="services">
                 <div class="bloc">
                     <div class="bloc-icone">
                         <div class="cercle"></div>
@@ -81,7 +96,7 @@
                         </div>
                     </div>
                     <div class="bloc-text">
-                        <h3>UX-Design</h3>
+                        <h3>UX design</h3>
                         <p>L’UX Design se définit donc comme l’ensemble des moyens mis en œuvre pour concevoir une interface qui répond pleinement aux besoins en utilisabilité de chaque utilisateur.</p>
                     </div>
                 </div> 
@@ -95,8 +110,8 @@
                         </div>
                     </div>   
                     <div class="bloc-text">
-                        <h3>UI-Design</h3>
-                        <p>l’UI design fait partie de l’UX design, en cela qu’il travaille à donner la meilleure expérience possible à l’utilisateur, mais il s’attache plus particulièrement aux éléments perceptibles : éléments graphiques, boutons, navigation, typographie…</p>
+                        <h3>UI design</h3>
+                        <p>l’UI design fait partie de l’UX design,il s’attache plus particulièrement aux éléments perceptibles : éléments graphiques, boutons, navigation, typographie…</p>
                     </div>
                 </div>
 
@@ -113,102 +128,111 @@
                         <p>L’optimisation pour les moteurs de recherche, référencement naturel ou SEO, est un ensemble de techniques visant à optimiser la visibilité d'une page web dans les résultats de recherche.</p>
                     </div>
                 </div>
-            </div>
-        </div>
+            </article>
+        </figure>
     	
     </section>  
     <section class="page projets" id="projets">
-    	<!-- Header Projet -->
-      <div class="entete">
+    	<!--          Header Projet            -->
+        <div class="entete">
             <h2> NOS PROJETS </h2>
     	    <div class="separateur">
                 <div class="trait"></div>
                 <div class="point"></div>
                 <div class="trait"></div>
             </div> 
-            <p>Post quorum necem nihilo lenius ferociens Gallus ut leo cadaveribus pastus multa huius modi scrutabatur. quae singula narrare non refert, me professione modum, quod evitandum est, excedamus.</p>  
-      </div>
-        <!-- menu projets -->
-      <div class="nav-projets">
+            <p>Si vous souhaitez avoir une idee sur la qualite et l'expertise de notre equipe, voila une panoplie de projet realiser.</p>  
+        </div>
+        <!--         menu projets             -->
+        <menu class="nav-projets">
             <a href="#" class="active"><div class="triangle"></div>All Works</a>
             <a href="#"><div class="triangle"></div>Creative</a>
             <a href="#"><div class="triangle"></div>Corporate</a>
             <a href="#"><div class="triangle"></div>Portfolio</a>
-      </div>
-        <!-- contenu page projets -->
-      <div class="contenu-projets">
-        <div class="container">
-            <img class="images-projets" src="images/portfolio/01.jpg" alt="portfolio1">
-            <div class="view"></div>
-            <div class="rond"></div>
-            <div class="oeil"><i class="fa fa-eye"></i></div>
-            <p>Portfolio 1</p>      
-        </div>
-        <div class="container"> 
-            <img class="images-projets" src="images/portfolio/02.jpg" alt="portfolio2"> 
-            <div class="view"></div>
-            <div class="rond"></div>
-            <div class="oeil"><i class="fa fa-eye"></i></div>
-            <p>Portfolio 2</p>      
-        </div>
-        <div class="container">
-            <img class="images-projets" src="images/portfolio/03.jpg" alt="portfolio3">
-            <div class="view"></div>
-            <div class="rond"></div>
-            <div class="oeil"><i class="fa fa-eye"></i></div>  
-            <p>Portfolio 3</p>  
-        </div>
-        <div class="container">
-            <img class="images-projets" src="images/portfolio/04.jpg" alt="portfolio4">
-            <div class="view"></div>
-            <div class="rond"></div>
-            <div class="oeil"><i class="fa fa-eye"></i></div>
-            <p>Portfolio 4</p>  
-        </div>  
-        <div class="container">
-            <img class="images-projets" src="images/portfolio/05.jpg" alt="portfolio5">
-            <div class="view"></div>
-            <div class="rond"></div>
-            <div class="oeil"><i class="fa fa-eye"></i></div>
-            <p>Portfolio 5</p>  
-        </div>
-        <div class="container"> 
-            <img class="images-projets" src="images/portfolio/06.jpg" alt="portfolio6">
-            <div class="view"></div>
-            <div class="rond"></div>
-            <div class="oeil"><i class="fa fa-eye"></i></div>
-            <p>Portfolio 6</p>  
-        </div>
-        <div class="container"> 
-            <img class="images-projets" src="images/portfolio/07.jpg" alt="portfolio7">
-            <div class="view"></div>
-            <div class="rond"></div>
-            <div class="oeil"><i class="fa fa-eye"></i></div>
-            <p>Portfolio 7</p>  
-        </div>
-        <div class="container"> 
-            <img class="images-projets" src="images/portfolio/08.jpg" alt="portfolio8">
-            <div class="view"></div>
-            <div class="rond"></div>
-            <div class="oeil"><i class="fa fa-eye"></i></div>
-            <p>Portfolio 8</p>  
-        </div>
-        <div class="container cache"> 
-            <img class="images-projets" src="images/portfolio/full.jpg" alt="portfolio9">
-            <div class="view"></div>
-            <div class="rond"></div>
-            <div class="oeil"><i class="fa fa-eye"></i></div>
-            <p>Portfolio 9</p>  
-        </div>
-      </div>
-  </section> 
+        </menu>
+        <!--          contenu page projets          -->
+        <figure class="contenu-projets">
+            <figcaption class="container">
+                <img class="images-projets" src="images/portfolio/01.jpg" alt="projet 1">
+                <div class="view"></div>
+                <div class="rond"></div>
+                <div class="oeil"><i class="fa fa-eye"></i></div>
+                <p>Projet 1 : Creation d'un site web</p>  
+                <p>Site pour Ophtalmologie</p>     
+            </figcaption>
+            <figcaption class="container"> 
+                <img class="images-projets" src="images/portfolio/02.jpg" alt="projet 2"> 
+                <div class="view"></div>
+                <div class="rond"></div>
+                <div class="oeil"><i class="fa fa-eye"></i></div>
+                <p>Projet 2 : Creation d'un site web</p>  
+                <p>Site de Jeux Video </p>      
+            </figcaption>
+            <figcaption class="container">
+                <img class="images-projets" src="images/portfolio/03.jpg" alt="projet 3">
+                <div class="view"></div>
+                <div class="rond"></div>
+                <div class="oeil"><i class="fa fa-eye"></i></div>  
+                <p>Projet 3 : Creation d'un site web</p>  
+                <p>Site pour Une marque de T-shirt</p> 
+            </figcaption>
+            <figcaption class="container">
+                <img class="images-projets" src="images/portfolio/04.jpg" alt="projet 4">
+                <div class="view"></div>
+                <div class="rond"></div>
+                <div class="oeil"><i class="fa fa-eye"></i></div>
+                <p>Projet 4 : Creation d'un site web</p>  
+                <p>Site de Formation</p>  
+            </figcaption>  
+            <figcaption class="container">
+                <img class="images-projets" src="images/portfolio/05.jpg" alt="projet 5">
+                <div class="view"></div>
+                <div class="rond"></div>
+                <div class="oeil"><i class="fa fa-eye"></i></div>
+                <p>Projet 5 : Creation d'un site web</p>  
+                <p>Site de Shopping</p> 
+            </figcaption>
+            <figcaption class="container"> 
+                <img class="images-projets" src="images/portfolio/06.jpg" alt="projet 6">
+                <div class="view"></div>
+                <div class="rond"></div>
+                <div class="oeil"><i class="fa fa-eye"></i></div>
+                <p>Projet 6 : Creation d'un site web</p>  
+                <p>Site d'histoire</p> 
+            </figcaption>
+            <figcaption class="container"> 
+                <img class="images-projets" src="images/portfolio/07.jpg" alt="projet 7">
+                <div class="view"></div>
+                <div class="rond"></div>
+                <div class="oeil"><i class="fa fa-eye"></i></div>
+                <p>Projet 7 : Creation d'un site web</p>  
+                <p>Site de Science</p>  
+            </figcaption>
+            <figcaption class="container"> 
+                <img class="images-projets" src="images/portfolio/08.jpg" alt="projet 8">
+                <div class="view"></div>
+                <div class="rond"></div>
+                <div class="oeil"><i class="fa fa-eye"></i></div>
+                <p>Projet 8 : Creation d'un site Vitrine</p>  
+                <p>Site d'entrepreneur </p>   
+            </figcaption>
+            <figcaption class="container cache"> 
+                <img class="images-projets" src="images/portfolio/full.jpg" alt="projet 9">
+                <div class="view"></div>
+                <div class="rond"></div>
+                <div class="oeil"><i class="fa fa-eye"></i></div>
+                <p>Projet 9 : Creation d'un site web</p>  
+                <p>Site sur l'alimentation</p> 
+            </figcaption>
+        </figure>
+    </section> 
 
-  <section class="google-wrapper" id="contact">
-        <div id="google-map">
-             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31002.18325125486!2d2.336291617905498!3d48.87622967768327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e0cad24b34d%3A0x1c0b82c6e1d85190!2s75010%20Paris%2C%20France!5e0!3m2!1sfr!2sma!4v1571935175315!5m2!1sfr!2sma" frameborder="0" style="border:0;" allowfullscreen="">    	
-             </iframe>
+    <section class="map-contact" id="contact">
+        <div class="google-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.221608978442!2d2.3485243008863224!3d48.87305179267757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e14433c0007%3A0xe028402ac4f8c063!2sWebAgensy!5e0!3m2!1sfr!2sma!4v1572966249308!5m2!1sfr!2sma" frameborder="0" style="border:0;" allowfullscreen="">
+            </iframe>
         </div>
-        <div id="calque">        	
+        <div class="calque">        	
         </div>
         <form> 
             <h3>Contact Info</h3>
