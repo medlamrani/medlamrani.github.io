@@ -254,7 +254,6 @@ nav  .active
 
 strong
 {
-	text-decoration-style: none; 
 	color: #5CADD3;
 	font-family: 'Roboto-Medium';
 }
@@ -676,6 +675,7 @@ iframe
 {
     width  : 100%;
     height : 100vh;	
+    border: 0;
 }
 
 .calque
@@ -713,7 +713,7 @@ form
 form h3
 {
     font-size: 28px;
-    margin: 15px 15px 15px 15px;
+    margin: 15px 15px 15px 20px;
 	font-family: 'Roboto-Black';
 }
 
@@ -722,7 +722,7 @@ form h4
     color: #64686D;
     font-size: 16px;
     font-family: 'Roboto-Black';
-    margin-left: 15px;
+    margin-left: 20px;
 }
 
 form  p 
@@ -731,7 +731,7 @@ form  p
 	font-size: 14px;
 	color: #65696E;
 	text-align: justify;
-	margin-left: 15px;
+	margin-left: 20px;
 }
 
 span
@@ -744,10 +744,9 @@ input[type="text"], input[type="email"]
     width: 90%;
     box-sizing: border-box;
     padding: 10px 15px;
-    margin: 10px 0;
+    margin: 10px 20px;
     border : 1px solid #CCCCCC;
     border-radius: 4px;
-    margin-left: 15px;
     font-size: 14px;
     color: #515151;
     font-family: 'Roboto-Medium';
@@ -760,7 +759,7 @@ input[type="submit"]
     border-bottom: 3px solid #4494BB;
     padding: 10px 10px;
     color: white;
-    margin-left: 15px;
+    margin-left: 20px;
     opacity: 1;
     cursor: pointer;
     font-family: 'Roboto-Medium';
@@ -773,10 +772,9 @@ textarea
     height: 200px;
     box-sizing: border-box;
     padding: 10px 15px;
-    margin: 8px 0;
+    margin: 8px 20px;
     border : 1px solid #CCCCCC;
     border-radius: 4px;
-    margin-left: 15px;
     font-size: 14px;
     color: #515151;
     font-family: 'Roboto-Medium';
@@ -833,11 +831,6 @@ M         M
     {
         display: block;
         background: none;
-    }
-
-    #toggle:checked + header
-    {
-    	background-color: none;
     }
 
     .test
