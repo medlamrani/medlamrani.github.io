@@ -43,14 +43,7 @@
 
 /**
 
-**********  ***********   ***********       *       *  **********   **********    *
-*        *  *             *                 *       *  *                *         *
-*        *  *             *                 *       *  *                *         * 
-*        *  *             *                 *       *  *********        *         *
-**********  *             *                 *       *  *                *         *
-*        *  *             *                 *       *  *                *         *
-*        *  *             *                 *       *  *                *         *
-*        *  ***********   ***********       *********  **********   **********    ***********
+accueil accueil accueil accueil accueil accueil accueil accueil accueil accueil accueil accueil accueil accueil accueil accueil 
 
 **/
 body
@@ -287,15 +280,7 @@ strong
 
 /**
 
-***********   ************      ************     *               *     ************     *************   ***************
-*             *                 *           *     *             *            *          *               *   
-*             *                 *           *      *           *             *          *               *
-*             *                 *          *        *         *              *          *               *
-***********   ************      * ********           *       *               *          *               ***************
-          *   *                 *        *            *     *                *          *               *
-          *   *                 *         *            *   *                 *          *               *
-          *   *                 *          *            * *                  *          *               *
-***********   ************      *            *           *              ***********     *************   ***************     
+Services Services Services Services Services Services Services Services Services Services Services Services Services Services 
 
 **/
 
@@ -449,14 +434,7 @@ h2
 
 /**        
 
-**********      **********      **********    ***********    **********      **************
-*         *     *         *     *        *          *        *                     *
-*         *     *         *     *        *          *        *                     *
-*         *     *        *      *        *          *        *                     *
-**********      *******         *        *          *        **********            *
-*               *      *        *        *     *    *        *                     *
-*               *        *      *        *     *    *        *                     *
-*               *          *    **********      ****         **********            *
+Projet Projet Projet Projet Projet Projet Projet Projet Projet Projet Projet Projet Projet Projet Projet Projet
 
 **/
 
@@ -651,14 +629,7 @@ h2
 
 /**
 
-********    *********     **        *     ***********    ***********     ***********     ************
-*           *       *     * *       *          *         *         *     *                    *
-*           *       *     *  *      *          *         *         *     *                    *       
-*           *       *     *   *     *          *         *         *     *                    *    
-*           *       *     *    *    *          *         ***********     *                    *     
-*           *       *     *     *   *          *         *         *     *                    *
-*           *       *     *      *  *          *         *         *     *                    *  
-********    *********     *       * *          *         *         *     ***********          *
+Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact 
 
 **/
 .map-contact
@@ -784,17 +755,9 @@ textarea
 }
 
 /**
-
-MM       MM
-M M     M M
-M  M   M  M
-M   M M   M
-M    M    M
-M         M
-M         M
-
-
+Media Queries Media Queries Media Queries Media Queries Media Queries Media Queries Media Queries 
 **/
+
 @media screen and (max-width: 700px) 
 {
 	header
