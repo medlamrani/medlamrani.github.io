@@ -59,6 +59,7 @@ body
 	flex-direction: column;
 	text-align: center;
 	align-items: center;
+	width: 100%;
 }
 
 section
@@ -691,12 +692,7 @@ iframe
     pointer-events: none;
 }
 
-.form-text
-{
-    padding-top: 5px;
-    margin-left: 15px;
-    margin-bottom: 10px;
-}
+
 
 form
 {
@@ -707,14 +703,21 @@ form
 	right: 200px;
 	top: 110px;
     z-index: 300;
-    text-align: left;
+}
+
+.form-text
+{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 form h3
 {
     font-size: 28px;
-    margin: 15px 15px 15px 20px;
 	font-family: 'Roboto-Black';
+	text-align: left;
+	margin: 15px 0;
 }
 
 form h4
@@ -722,7 +725,8 @@ form h4
     color: #64686D;
     font-size: 16px;
     font-family: 'Roboto-Black';
-    margin-left: 20px;
+    text-align: left;
+    margin: 5px 0;
 }
 
 form  p 
@@ -731,7 +735,6 @@ form  p
 	font-size: 14px;
 	color: #65696E;
 	text-align: justify;
-	margin-left: 20px;
 }
 
 span
@@ -744,7 +747,7 @@ input[type="text"], input[type="email"]
     width: 90%;
     box-sizing: border-box;
     padding: 10px 15px;
-    margin: 10px 20px;
+    margin: 10px auto;
     border : 1px solid #CCCCCC;
     border-radius: 4px;
     font-size: 14px;
@@ -759,11 +762,11 @@ input[type="submit"]
     border-bottom: 3px solid #4494BB;
     padding: 10px 10px;
     color: white;
-    margin-left: 20px;
-    opacity: 1;
+    margin: 10px 260px 10px 10px;
     cursor: pointer;
     font-family: 'Roboto-Medium';
     border-radius: 2px;
+
 }
 
 textarea
@@ -772,7 +775,7 @@ textarea
     height: 200px;
     box-sizing: border-box;
     padding: 10px 15px;
-    margin: 8px 20px;
+    margin: 8px auto;
     border : 1px solid #CCCCCC;
     border-radius: 4px;
     font-size: 14px;
@@ -833,7 +836,7 @@ M         M
         background: none;
     }
 
-    .test
+    .entete-fixe
     {
     	width: 90%;
     }
@@ -911,8 +914,15 @@ M         M
 	form
 	{
 		width: 80%;
-		top: 100px;
+		top: 850px;
 		right: 35px;
+	}
+
+	input[type="submit"]
+	{
+		padding: 10px 90px;
+		margin: 0;
+
 	}
 
 	.cache
